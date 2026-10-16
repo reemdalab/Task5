@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face{
+    font-family:'poppins';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family:'poppins-semibold';
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face{
+    font-family:'poppins-medium';
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face{
+    font-family:'poppins-bold';
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family:'poppins-italic';
+    src: url(../fonts/Poppins/Poppins-LightItalic.ttf);
+}
+.container {
+   /* width:calc(100% - 330px) ; */
+    width:100%;
+    max-width:95%;
+    display:flex;
+    align-items: center;
+    gap:10px;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.container2{
+    /* width:calc(100% - 130px) ;  */
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.container3{
+     width: 100%;
+     max-width:88%;
+     display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
