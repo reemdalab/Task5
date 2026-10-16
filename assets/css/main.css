@@ -476,6 +476,10 @@ display: flex;
     .email{
         flex-direction: column;
     }
+    .email-input
+    {
+        width: 200px;
+    }
 }
 @media(max-width:834px)
 {
